@@ -2,7 +2,8 @@
 
 Welcome to the `bookstore_DB` project — a fully structured, relational database system built to simulate the operations of a modern bookstore. This project covers everything from planning and creating database structures, assigning user access roles, to inserting and testing realistic data using SQL queries.
 
-![alt text](/Bookstore_db/Book_store%20Database.drawio.png)
+
+![bookstore erd](/Bookstore_db/image.png)
 
 ---
 
