@@ -60,16 +60,6 @@ To control access and enforce security:
 - Defined **roles** such as `admin`, `data_entry`, `readonly`
 - Granted access per role to specific databases and actions (SELECT, INSERT, UPDATE, etc.)
 
-Example MySQL role assignment:
-
-```sql
-CREATE ROLE 'data_entry';
-GRANT INSERT, UPDATE ON bookstore_DB.* TO 'data_entry';
-GRANT 'data_entry' TO 'maggie'@'localhost';
-SET DEFAULT ROLE 'data_entry' TO 'maggie'@'localhost';
-```
-
----
 
 ## Phase 3: Data Insertion for Testing
 
@@ -117,7 +107,7 @@ Each query helped us validate:
 
 - **MySQL 8+**
 - **WorkBench / MySQL CLI**
-- **ERD visualization tools** (draw.io)
+- **ERD visualization tools** (draw.io) Here is the link:https://drive.google.com/file/d/1Yw3E3bhYlIhjRJX1xIg8eoArPI7mOqaz/view?usp=sharing
 - **Manual SQL scripting**
 
 ---

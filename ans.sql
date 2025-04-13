@@ -125,6 +125,3 @@ FOREIGN KEY (order_status_id) REFERENCES order_status(order_status_id)
 );
 
 
-0	12	12:54:23	INSERT INTO language (language_id, language_name) VALUES 
- ('EN', 'English'),
- ('SW', 'Swahili')	Error Code: 1062. Duplicate entry 'EN' for key 'language.PRIMARY'	0.000 sec
