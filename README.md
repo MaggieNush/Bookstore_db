@@ -4,7 +4,7 @@ Welcome to the `bookstore_DB` project — a fully structured, relational databas
 
 
 
-![bookstore erd](bookstore_db.png)
+![bookstore erd](/image.png)
 
 
 ---
